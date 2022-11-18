@@ -24,46 +24,47 @@
             </nav>
         </div>
     </header>
+    <form action="">
+        <fieldset style="position: absolute; top: 60%; width: 98%;">
+            <legend>Identificación</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="Domicilio">Domicilio:</label>
+            <input type="text" id="casa" name="casa"><br><br>
+            <label for="Localidad">Localidad:</label>
+            <input type="text" id="casa2" name="casa2"><br><br>
+            <label for="CódigoPostal">Código Postal:</label>
+            <input type="text" id="cp" name="cp"><br><br>
+            <label for="Teléfono">Teléfono:</label>
+            <input type="text" id="tlf" name="tlf"><br><br>
+        </fieldset>
+        <fieldset style="position: absolute; top: 100%; width: 98%;">
+            <legend>Recibir novedades</legend>
+            <label for="gusta">Indicanos donde te gustaría recibir las próximas novedades</label><br>
+            <input type="checkbox" id="mail" name="mail">
+            <label>E-mail</label><br>
+            <label>En este caso, especifica tu email.</label>
+            <input type="text" id="correo" name="mail"><br><br>
+            <input type="checkbox" id="acasa" name="acasa">
+            <label>Por carta a domicilio</label><br><br>
+            <br>
+            <label for="Peticiones">Si tienes alguna petición háznolo saber.</label>
+            <br>
+            <br>
+            <textarea name="Peticiones" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar" style="position: absolute; top: 145%;">
+        <fieldset style="position: absolute; top: 150%; width: 98%;">
+            <legend>¿Dónde estamos?</legend>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25438.911741038344!2d-3.6247335469091357!3d37.15593396259167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fca01c522e7d%3A0xcb75a1d4f76cf0c9!2sZaid%C3%ADn%2C%20Granada!5e0!3m2!1ses!2ses!4v1668424511219!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <fieldset style="position: absolute; top: 60%; width: 98%;">
-        <legend>Identificación</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br><br>
-        <label for="apellido">Apellidos:</label>
-        <input type="text" id="apellido" name="apellido"><br><br>
-        <label for="Domicilio">Domicilio:</label>
-        <input type="text" id="casa" name="casa"><br><br>
-        <label for="Localidad">Localidad:</label>
-        <input type="text" id="casa2" name="casa2"><br><br>
-        <label for="CódigoPostal">Código Postal:</label>
-        <input type="text" id="cp" name="cp"><br><br>
-        <label for="Teléfono">Teléfono:</label>
-        <input type="text" id="tlf" name="tlf"><br><br>
-    </fieldset>
-    <fieldset style="position: absolute; top: 100%; width: 98%;">
-        <legend>Recibir novedades</legend>
-        <label for="gusta">Indicanos donde te gustaría recibir las próximas novedades</label><br>
-        <input type="checkbox" id="mail" name="mail">
-        <label>E-mail</label><br>
-        <label>En este caso, especifica tu email.</label>
-        <input type="text" id="correo" name="mail"><br><br>
-        <input type=" checkbox" id="acasa" name="acasa">
-        <label>Por carta a domicilio</label><br><br>
-        <br>
-        <label for="Peticiones">Si tienes alguna petición háznolo saber.</label>
-        <br>
-        <br>
-        <textarea name="Peticiones" id="" cols="30" rows="10"></textarea>
-    </fieldset>
-    <input type="submit" value="Enviar" style="position: absolute; top: 145%;">
-    <fieldset style="position: absolute; top: 150%; width: 98%;">
-        <legend>¿Dónde estamos?</legend>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25438.911741038344!2d-3.6247335469091357!3d37.15593396259167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fca01c522e7d%3A0xcb75a1d4f76cf0c9!2sZaid%C3%ADn%2C%20Granada!5e0!3m2!1ses!2ses!4v1668424511219!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </fieldset>
+        </fieldset>
+    </form>
     <footer style="position: absolute; top: 220%; left: 28%;">
         <div style="position: absolute; width: 200px;">
             <fieldset style="width: 200px;">
